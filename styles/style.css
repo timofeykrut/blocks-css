@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "Roboto-Black";
+    src: url("../src/fonts/Roboto-Black.ttf") format('truetype');
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../src/fonts/Roboto-Regular.ttf") format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto-Italic";
+    src: url("../src/fonts/Roboto-Italic.ttf") format('truetype');
+    font-style: italic;
+    font-weight: normal;
+}
+
+body {
+    font-family: "Roboto-Regular", Arial, sans-serif;
+    /*text-align: center;*/
+    color: #000000;
+    background-color: #ffffff;
+    /**/
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                                not supported by any browser */
+
+
+    padding: 0;
+    margin: 0;
+font-size: 16px;
+    text-align:center;
+}
+
+div {
+    text-align: center;
+    max-width:920px;
+}
+
+
+nav, main {
+    display:inline-block;
+    text-align: left;
+}
+
+nav{
+    vertical-align: top;
+    padding: 20px;
+    font-size: 20px;
+    width: 160px;
+}
+
+header {
+    height: 120px;
+    background-color: rgba(0, 0, 189, 0.925);
+    line-height: 120px;
+}
+
+h1 {
+    font-size: 60px ;
+    margin: 0;
+
+}
+
+div {
+    margin: 20px auto;
+}
+
+a{
+    display: block;
+}
+
+main {
+    width: 700px;
+}
